@@ -1,0 +1,60 @@
+body {
+    background-color: #000000; 
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: #000000;
+    display: flex; /* Добавлено для центрирования */
+    justify-content: center; /* Центрирование по горизонтали */
+    align-items: center; /* Центрирование по вертикали */
+    height: 100vh; /* Занимает всю высоту страницы */
+    margin: 0; /* Убирает стандартные отступы браузера */
+    padding: 0; /* Убирает стандартные отступы браузера */
+}
+
+input[type='submit'] {
+    background-color: #808080; 
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+input[type='submit']:hover {
+    background-color: #A9A9A9; 
+}
+
+form {
+    width: 300px;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+    font-style: italic; /* Делает текст внутри формы курсивным */
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #000000; 
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    color: #000000; 
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #000000; 
+    font-style: italic; /* Делает текст заголовков курсивным */
+}
